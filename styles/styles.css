@@ -4,11 +4,13 @@
 }
 
 .paragraph {
-    font-family: 'Inter', sans-serif;; ;
+	font-family: 'Inter', sans-serif;; ;
 }
 
 .list {
-    font-family: 'Inter', sans-serif;; ;
+	display: table;
+	margin: 0 auto;    
+	font-family: 'Inter', sans-serif;; ;
 }
 
 body {
