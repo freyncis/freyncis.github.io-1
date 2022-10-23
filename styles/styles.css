@@ -17,14 +17,12 @@ body {
 	background-color: #F6F3F4;
 }
 
+/* links */
+
 a {
 	color: #655441;
 }
 
 a: hover {
-	color: #3C2323;
-}
-
-a: active {
 	color: #20603C;
 }
