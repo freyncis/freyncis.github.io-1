@@ -1,21 +1,42 @@
-.heading {
-	font-family:'Inter', sans-serif;;
-	font-weight: 800 ;
-	font-size: 12px;
-}
-
-.paragraph {
-	font-family: 'Inter', sans-serif;; ;
-}
-
-.list {
-	display: table;
-	margin: 0 auto;    
-	font-family: 'Inter', sans-serif;; ;
-}
-
 body {
+	font-family: 'Inter', sans-serif;
 	background-color: #F6F3F4;
+}
+
+#head-part {
+	text-align: center;
+}
+
+#circle-image {
+	max-inline-size: 10rem;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	background-color: aqua;
+	padding: 3rem;
+	height: 25rem;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+ul {
+	list-style: none;
+}
+
+@media screen and (max-width: 35rem) {
+	.column {
+		width: 100%;
+	}
 }
 
 /* links */
@@ -24,6 +45,6 @@ a {
 	color: #655441;
 }
 
-a: hover {
+a:hover {
 	color: #20603C;
 }
