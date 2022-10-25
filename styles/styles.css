@@ -3,6 +3,7 @@ body {
 	background-color: #F6F3F4;
 }
 
+<<<<<<< HEAD
 #head-part {
 	text-align: center;
 }
@@ -41,10 +42,20 @@ ul {
 
 /* links */
 
+=======
+>>>>>>> parent of e7e27fc (Update styles.css)
 a {
 	color: #655441;
 }
 
+<<<<<<< HEAD
 a:hover {
+=======
+a: hover {
+	color: #3C2323;
+}
+
+a: active {
+>>>>>>> parent of e7e27fc (Update styles.css)
 	color: #20603C;
 }
