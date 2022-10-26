@@ -100,3 +100,13 @@ b {
     margin: 30px;
     padding-top: 3rem;
 }
+
+#home-heading {
+    margin: 0 3rem 0 3rem;
+    text-align: center;
+    
+}
+
+#home-hr {
+    width: 4rem;
+}
