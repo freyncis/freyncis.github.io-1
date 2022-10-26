@@ -1,22 +1,79 @@
 body {
     font-family: 'Inter', sans-serif;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 2.5rem;
     background-color: #FFFDF6;
     color: rgb(49, 49, 49);
 }
 
+.text-area {
+    max-width: 40vw;
+    min-width: 10vw;
+    margin: 0 auto 0 auto;
+}
+
+.text-container {
+    width: 100%;
+    line-height: 1.5rem;
+    padding-top: .8rem;
+}
+
+#header-logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+
+header {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-under-top-heading {
+    width: 4rem;
+}
+
+nav {
+    font-size: 0.85rem;
+}
+
+nav a {
+    margin: .7rem;
+    margin-bottom: 4px;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+    color: #20603C;
+}
+
+.splitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 3rem;
+    background-color: black
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+
 h1 {
     font-weight: 900;
     font-size: 3rem;
-    text-align: center;
     padding: 0;
     margin: 0;
 }
 
+
 h2 {
     font-weight: 600;
-    text-align: center;
     padding: 0 0 25 0;
     padding: 0;
     margin-top: 0.8rem;
@@ -27,7 +84,6 @@ b {
 }
 
 #site-description {
-    text-align: center;
     padding: 0;
     margin-top: 2.3rem;
 }
@@ -37,9 +93,10 @@ b {
     max-width: 10rem;
 }
 
-.header-container {
+.hero-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px;
+    padding-top: 3rem;
 }
