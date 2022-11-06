@@ -1,8 +1,14 @@
+:root {
+    --main-green: #20603C;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 2.5rem;
     background-color: #FFFDF6;
     color: rgb(49, 49, 49);
+    padding: 0 3rem;
+    margin: 3rem;
 }
 
 .text-area {
@@ -21,6 +27,10 @@ body {
     width: 2rem;
     height: 2rem;
     border-radius: 0.3rem;
+}
+
+#logo-container {
+    padding-left: 1.75rem;
 }
 
 header {
@@ -44,7 +54,7 @@ nav a {
     margin-bottom: 4px;
 }
 
-a:hover {
+nav a:hover {
     border-bottom: 1px solid black;
     color: #20603C;
 }
@@ -57,7 +67,7 @@ a:hover {
     background-color: black
 }
 
-a {
+nav a {
     text-decoration: none;
     color: black;
     font-weight: 100;
@@ -71,12 +81,14 @@ h1 {
     margin: 0;
 }
 
-
 h2 {
     font-weight: 600;
     padding: 0 0 25 0;
-    padding: 0;
-    margin-top: 0.8rem;
+    margin: 0.8rem 0;
+}
+
+h3 {
+    font-weight: 400;
 }
 
 b {
@@ -101,12 +113,42 @@ b {
     padding-top: 3rem;
 }
 
+
+/* Home Page */
 #home-heading {
     margin: 0 3rem 0 3rem;
     text-align: center;
     
 }
 
+.text-area a {
+    text-decoration: none;
+}
+
+.text-area a, a:visited{
+        color: black;
+        font-weight: 600;
+}
+
+.text-area a:hover {
+    color: var(--main-green);
+    
+}
+
 #home-hr {
     width: 4rem;
+}
+
+/* Portfolio Page */
+#portfolio-text-area div{
+    margin-top: 2rem;
+}
+
+#portfolio-text-area a, a:visited {
+    color: black;
+}
+
+#portfolio-text-area a:hover {
+    color: var(--main-green);
+    cursor: pointer;
 }
